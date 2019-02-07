@@ -14,8 +14,18 @@ public class TreeControllerClass {
 	
 	public static void main(String [] args) {
 		
-		int i=1/2;
+		int i;
+		for(i=10;i>=0;i--)
 		System.out.println("Value of i"+ i);
+		int [] arra= new int[10];
+		int sizeNumber =arra.length;
+		
+		String sizestring="test";
+		
+		
+		sizestring.length();
+		
+		
 		
 		BSTTree bt= new BSTTree();
 		CreateLinkedListfromTree cllt= new CreateLinkedListfromTree();

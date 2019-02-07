@@ -11,7 +11,17 @@ import java.util.Map;
  *
  */
 public class ListListnode {
+	
 	LinkNode head;
+	
+	public LinkNode getHead() {
+		return head;
+	}
+
+	public void setHead(LinkNode head) {
+		this.head = head;
+	}
+
 	// to add the value at the end of linklist
 	public void createListappend(int data) {
 		

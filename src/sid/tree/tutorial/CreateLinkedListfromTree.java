@@ -83,6 +83,7 @@ public class CreateLinkedListfromTree {
 				 //current.add(null);
 				 // below addition works because it allows null for string but not for Tree Node that is custom type
 				 test.add(null);
+				 // check if parent has left or right node instead of sending null values
 				 if(parents.leftNode!=null)
 				 current.add(parents.leftNode);
 				 if(parents.rightNode!=null)
